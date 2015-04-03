@@ -1,0 +1,23 @@
+{
+  "name": "midi-keys",
+  "version": "0.0.0",
+  "description": "MIDI note names => key numbers",
+  "keywords": [],
+  "scripts": {
+    "test": "set -e; for t in test/*; do node $t; done"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/midi-keys.git"
+  },
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaz303/midi-keys/issues"
+  },
+  "homepage": "http://github.com/jaz303/midi-keys"
+}
