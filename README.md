@@ -1,8 +1,8 @@
 # midi-keys
 
+Map note names to MIDI note numbers.
+
 ## Installation
-
-
 
 Get it:
 
@@ -10,9 +10,15 @@ Get it:
 
 Require it:
 
-	var midi-keys = require('midi-keys');
+	var key = require('midi-keys');
 
+## API
 
+#### `key(note)`
+
+Return the MIDI key number for `note`.
+
+Note names are expressed as an uppercase letter (A-G), an optional sharp (#) or flat (b) modifier, then an octave number. Examples: `C3`, `Bb2`, `F#4`, `C-2`.
 
 ## Copyright &amp; License
 
