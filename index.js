@@ -20,7 +20,6 @@ var KEYS = {};
 	}
 })();
 
-exports.key = key;
-function key(note) {
+module.exports = function(note) {
 	return KEYS[note];
 }
