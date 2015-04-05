@@ -1,6 +1,6 @@
 {
   "name": "midi-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MIDI note names => key numbers",
   "keywords": [],
   "scripts": {
